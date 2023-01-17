@@ -1,5 +1,6 @@
 fruta= input('Qual fruta você deseja?\n'' 1 Morango\n'' 2 Abacaxi\n'' 3 Pera\n'' 4 Maca\n')
 peso= float (input ('Quantos kilos de fruta você deseja?\n'))
+parcelas = 'Não'
 
 if fruta=='1':
     if peso<=5:
@@ -49,6 +50,7 @@ elif pagamento== '3':
         parcelas= input('Deseja parcelar em 2 vezes?\n')
         if parcelas=='Sim':
             print('2 parcelas de R$:', str((gastofruta/2)))
+
 
 entrega = input('Deseja entrega? Sim ou Não?\n')
 if entrega == 'Sim':
